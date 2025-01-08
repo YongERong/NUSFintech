@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Camera, Check, AlertCircle, Loader2 } from 'lucide-react';
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from '@/components/ui/card';
+import { Card, CardContent, CardDescription, CardHeader, CardTitle } from './components/ui/card';
 
 const IdentityVerification = () => {
   const [step, setStep] = useState(1);

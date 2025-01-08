@@ -1,10 +1,13 @@
 import logo from './logo.svg';
-import './App.css';
 import EnhancedIdentityDashboard from './enhanced-identity-dashboard';
+import IdentityVerification from './identity-verification-flow';
 
 function App() {
   return (
-    <EnhancedIdentityDashboard />
+    //<EnhancedIdentityDashboard/>
+    <IdentityVerification/>
+  
+
   );
 }
 

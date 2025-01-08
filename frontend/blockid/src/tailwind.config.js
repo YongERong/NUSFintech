@@ -1,6 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 export const darkMode = ["class"];
-export const content = ["src/*.{js,tsx,jsx}","src/components/ui/*.{js,tsx,jsx}", "src/lib/*.{js,tsx,jsx}", "src/**/*.{js,jsx,ts,tsx"];
+export const content = ["./*.{js,tsx,jsx}","./components/ui/*.{js,tsx,jsx}", "./lib/*.{js,tsx,jsx}"];
 export const theme = {
   extend: {
     colors: {
